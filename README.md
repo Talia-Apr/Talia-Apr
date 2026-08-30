@@ -20,7 +20,7 @@
 
 ---
 
-## 🛠️ Bahasa & Tools
+## 🛠️ Language & Tools
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nodejs,tailwind,git,figma,vscode" />
@@ -28,7 +28,7 @@
 
 ---
 
-## 📈 Grafik Aktivitas
+## 📈 Activity
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Talia-Apr&theme=tokyo-night&hide_border=true" />
