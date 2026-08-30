@@ -1,0 +1,84 @@
+<svg viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060B14"/>
+      <stop offset="100%" stop-color="#0F1B2E"/>
+    </linearGradient>
+    <linearGradient id="layerUI" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#33D6C0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#33D6C0" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="layerAPI" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C6FF0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#7C6FF0" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="layerData" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F5A623" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#F5A623" stop-opacity="0.15"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="260" fill="url(#bg)"/>
+
+  <!-- faint grid dots -->
+  <g fill="#1E2A3E">
+    <circle cx="40" cy="30" r="1.6"/>
+    <circle cx="860" cy="40" r="1.6"/>
+    <circle cx="820" cy="220" r="1.6"/>
+    <circle cx="60" cy="230" r="1.6"/>
+  </g>
+
+  <!-- Signature element: stacked "full stack" layer bars, right side -->
+  <g transform="translate(560,90)">
+    <rect x="0" y="0" width="300" height="20" rx="10" fill="url(#layerUI)"/>
+    <text x="0" y="-8" font-family="Consolas, monospace" font-size="11" fill="#33D6C0" letter-spacing="2">UI LAYER</text>
+
+    <rect x="20" y="42" width="280" height="20" rx="10" fill="url(#layerAPI)"/>
+    <text x="20" y="34" font-family="Consolas, monospace" font-size="11" fill="#9B90FF" letter-spacing="2">API LAYER</text>
+
+    <rect x="40" y="84" width="260" height="20" rx="10" fill="url(#layerData)"/>
+    <text x="40" y="76" font-family="Consolas, monospace" font-size="11" fill="#F5A623" letter-spacing="2">DATA LAYER</text>
+  </g>
+
+  <!-- Name -->
+  <text x="50" y="110" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="52" fill="#EAF2FF" filter="url(#glow)">
+    Talia Aprianti
+  </text>
+
+  <!-- Tagline -->
+  <text x="52" y="145" font-family="Consolas, monospace" font-size="17" fill="#33D6C0" letter-spacing="4">
+    FULL STACK DEVELOPER
+  </text>
+
+  <!-- Divider -->
+  <line x1="52" y1="165" x2="480" y2="165" stroke="#1E2A3E" stroke-width="1.5"/>
+
+  <!-- Tag pills -->
+  <g font-family="Consolas, monospace" font-size="13" fill="#EAF2FF">
+    <rect x="52" y="185" width="76" height="28" rx="14" fill="#0F1B2E" stroke="#33D6C0" stroke-width="1"/>
+    <text x="66" y="203">HTML</text>
+
+    <rect x="136" y="185" width="72" height="28" rx="14" fill="#0F1B2E" stroke="#33D6C0" stroke-width="1"/>
+    <text x="150" y="203">CSS</text>
+
+    <rect x="216" y="185" width="90" height="28" rx="14" fill="#0F1B2E" stroke="#7C6FF0" stroke-width="1"/>
+    <text x="228" y="203">React</text>
+
+    <rect x="314" y="185" width="130" height="28" rx="14" fill="#0F1B2E" stroke="#7C6FF0" stroke-width="1"/>
+    <text x="326" y="203">JavaScript</text>
+
+    <rect x="452" y="185" width="120" height="28" rx="14" fill="#0F1B2E" stroke="#F5A623" stroke-width="1"/>
+    <text x="466" y="203">Node.js</text>
+  </g>
+
+  <text x="52" y="240" font-family="Consolas, monospace" font-size="12" fill="#3E4E66">
+    github.com/Talia-Apr
+  </text>
+</svg>
