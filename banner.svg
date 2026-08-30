@@ -58,43 +58,30 @@
 <circle class="particle" cx="30" cy="60" r="1.1" fill="#e8c8ff" style="--dur:6.9s; --peak:0.4; animation-delay:4.0s;"/>
 <circle class="particle" cx="380" cy="270" r="1.5" fill="#ffd699" style="--dur:9.0s; --peak:0.45; animation-delay:1.8s;"/>
 
-<!-- signature: stacked full-stack layer bars -->
-<g transform="translate(500,110)">
-  <rect x="0" y="0" width="260" height="20" rx="10" fill="url(#layerUI)" style="animation: bar-grow 4s ease-in-out infinite; --full:260px;"/>
-  <text x="0" y="-8" font-family="Consolas, monospace" font-size="11" fill="#33D6C0" letter-spacing="2">UI LAYER</text>
+<!-- Name + tagline (centered) -->
+<text x="400" y="120" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="52" fill="#EAF2FF" filter="url(#glow)">Talia Aprianti</text>
 
-  <rect x="16" y="42" width="244" height="20" rx="10" fill="url(#layerAPI)" style="animation: bar-grow 4s ease-in-out infinite; animation-delay:0.3s; --full:244px;"/>
-  <text x="16" y="34" font-family="Consolas, monospace" font-size="11" fill="#9B90FF" letter-spacing="2">API LAYER</text>
+<text x="400" y="155" text-anchor="middle" font-family="Consolas, monospace" font-size="17" fill="#33D6C0" letter-spacing="4">FULL STACK DEVELOPER</text>
 
-  <rect x="32" y="84" width="228" height="20" rx="10" fill="url(#layerData)" style="animation: bar-grow 4s ease-in-out infinite; animation-delay:0.6s; --full:228px;"/>
-  <text x="32" y="76" font-family="Consolas, monospace" font-size="11" fill="#F5A623" letter-spacing="2">DATA LAYER</text>
-</g>
+<line x1="260" y1="175" x2="540" y2="175" stroke="rgba(51,214,192,0.2)" stroke-width="1"/>
 
-<!-- Name + tagline -->
-<text x="50" y="120" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="52" fill="#EAF2FF" filter="url(#glow)">Talia Aprianti</text>
-
-<text x="52" y="155" font-family="Consolas, monospace" font-size="17" fill="#33D6C0" letter-spacing="4">FULL STACK DEVELOPER</text>
-<rect class="cursor" x="345" y="140" width="10" height="18" fill="#33D6C0"/>
-
-<line x1="52" y1="175" x2="480" y2="175" stroke="rgba(51,214,192,0.2)" stroke-width="1"/>
-
-<!-- tech pills -->
+<!-- tech pills (centered) -->
 <g font-family="Consolas, monospace" font-size="13" fill="#EAF2FF">
-  <rect x="52" y="195" width="76" height="28" rx="14" fill="#0F1B2E" stroke="#33D6C0" stroke-width="1"/>
-  <text x="66" y="213">HTML</text>
+  <rect x="128" y="195" width="76" height="28" rx="14" fill="#0F1B2E" stroke="#33D6C0" stroke-width="1"/>
+  <text x="142" y="213">HTML</text>
 
-  <rect x="136" y="195" width="72" height="28" rx="14" fill="#0F1B2E" stroke="#33D6C0" stroke-width="1"/>
-  <text x="150" y="213">CSS</text>
+  <rect x="218" y="195" width="72" height="28" rx="14" fill="#0F1B2E" stroke="#33D6C0" stroke-width="1"/>
+  <text x="232" y="213">CSS</text>
 
-  <rect x="216" y="195" width="90" height="28" rx="14" fill="#0F1B2E" stroke="#7C6FF0" stroke-width="1"/>
-  <text x="228" y="213">React</text>
+  <rect x="304" y="195" width="90" height="28" rx="14" fill="#0F1B2E" stroke="#7C6FF0" stroke-width="1"/>
+  <text x="316" y="213">React</text>
 
-  <rect x="314" y="195" width="130" height="28" rx="14" fill="#0F1B2E" stroke="#7C6FF0" stroke-width="1"/>
-  <text x="326" y="213">JavaScript</text>
+  <rect x="408" y="195" width="130" height="28" rx="14" fill="#0F1B2E" stroke="#7C6FF0" stroke-width="1"/>
+  <text x="420" y="213">JavaScript</text>
 
-  <rect x="452" y="195" width="120" height="28" rx="14" fill="#0F1B2E" stroke="#F5A623" stroke-width="1"/>
-  <text x="466" y="213">Node.js</text>
+  <rect x="552" y="195" width="120" height="28" rx="14" fill="#0F1B2E" stroke="#F5A623" stroke-width="1"/>
+  <text x="566" y="213">Node.js</text>
 </g>
 
-<text x="52" y="270" font-family="Consolas, monospace" font-size="12" fill="#3E4E66">github.com/Talia-Apr</text>
+<text x="400" y="270" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#3E4E66">github.com/Talia-Apr</text>
 </svg>
