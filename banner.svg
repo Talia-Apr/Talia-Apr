@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="770" viewBox="0 0 800 770">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
 <style>
     @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400 900; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGkyMZhrib2Bg-4.woff2) format('woff2'); }
     @keyframes drift-r { 0%, 100% { transform: translate(0,0); opacity: 0.6; } 50% { transform: translate(35px,-18px); opacity: 1; } }
@@ -83,27 +83,5 @@
   <rect x="552" y="195" width="120" height="28" rx="14" fill="#0F1B2E" stroke="#F5A623" stroke-width="1"/>
   <text x="566" y="213">Node.js</text>
 </g>
-
-<text x="400" y="270" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#3E4E66">github.com/Talia-Apr</text>
-
-<!-- Divider  -->
-<line x1="200" y1="310" x2="600" y2="310" stroke="rgba(51,214,192,0.15)" stroke-width="1"/>
- 
-<!-- Label section -->
-<text x="400" y="335" text-anchor="middle" font-family="Consolas, monospace" font-size="11" fill="#33D6C0" letter-spacing="4">GITHUB STATS</text>
- 
-<!-- Stats card -->
-<image href="https://github-readme-stats.vercel.app/api?username=Talia-Apr&amp;show_icons=true&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=33D6C0&amp;icon_color=F5A623&amp;text_color=EAF2FF"
-       x="60" y="350" width="430" height="195" preserveAspectRatio="xMidYMid meet"/>
- 
-<!-- Top languages card -->
-<image href="https://github-readme-stats.vercel.app/api/top-langs/?username=Talia-Apr&amp;layout=compact&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=33D6C0&amp;text_color=EAF2FF"
-       x="510" y="350" width="230" height="195" preserveAspectRatio="xMidYMid meet"/>
- 
-<!-- Label streak -->
-<text x="400" y="580" text-anchor="middle" font-family="Consolas, monospace" font-size="11" fill="#7C6FF0" letter-spacing="4">COMMIT STREAK</text>
- 
-<!-- Streak stats card -->
-<image href="https://github-readme-streak-stats.herokuapp.com/?user=Talia-Apr&amp;hide_border=true&amp;background=00000000&amp;border=33D6C0&amp;stroke=33D6C0&amp;ring=7C6FF0&amp;fire=F5A623&amp;currStreakNum=EAF2FF&amp;sideNums=EAF2FF&amp;currStreakLabel=33D6C0&amp;sideLabels=9B90FF&amp;dates=3E4E66"
-       x="170" y="595" width="460" height="150" preserveAspectRatio="xMidYMid meet"/>
+    
 </svg> 
