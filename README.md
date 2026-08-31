@@ -12,9 +12,9 @@
 <!-- Contact -->
 <p align="center">
   <a href="https://www.linkedin.com/in/taliaaprianti/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0F1B2E?style=for-the-badge&logo=linkedin&logoColor=7C6FF0" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0F1B2E?style=for-the-badge&logo=linkedin&logoColor=7C6FF0&labelColor=060B14" alt="LinkedIn" />
   </a>
   <a href="mailto:taliaaprianti46@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-0F1B2E?style=for-the-badge&logo=gmail&logoColor=F5A623" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-Contact-0F1B2E?style=for-the-badge&logo=gmail&logoColor=F5A623&labelColor=060B14" alt="Email" />
   </a>
 </p>
