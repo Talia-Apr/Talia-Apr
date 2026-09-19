@@ -61,7 +61,7 @@
 
   <text x="400" y="120" text-anchor="middle" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, sans-serif" font-weight="700" font-size="52" fill="#EAF2FF" filter="url(#glow)">Talia Aprianti</text>
 
-  <text x="400" y="155" text-anchor="middle" font-family="Consolas, monospace" font-size="17" fill="#33D6C0" letter-spacing="4">SOFTWARE ENGINEER</text>
+  <text x="400" y="155" text-anchor="middle" font-family="Consolas, monospace" font-size="17" fill="#33D6C0" letter-spacing="4">SOFTWARE DEVELOPER</text>
 
   <line x1="260" y1="175" x2="540" y2="175" stroke="rgba(51,214,192,0.2)" stroke-width="1"/>
 
